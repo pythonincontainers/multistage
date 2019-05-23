@@ -15,9 +15,7 @@
 from timeit import default_timer
 from flask import Flask
 from flask_api import status
-# pylint: disable=no-name-in-module
 from factors import find_factors
-# pylint: enable=no-name-in-module
 
 APP = Flask(__name__)
 

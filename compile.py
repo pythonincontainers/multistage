@@ -4,7 +4,7 @@ from Cython.Distutils import build_ext
 
 ext_modules = [
     Extension("factors",
-    ["factors.pyx"],
+    ["factors.py"],
     libraries=["m"],
     extra_compile_args=["-ffast-math"]
     ),
